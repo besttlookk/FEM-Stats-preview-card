@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply min-h-screen bg-blue-dark  items-center justify-center flex flex-col md:justify-center;
+  }
+}
+
+@layer components {
+  .info {
+    @apply flex flex-col gap-1;
+  }
+
+  .info > span:first-child {
+    @apply font-bold text-2xl text-white md:text-lg;
+  }
+
+  .info > span:last-child {
+    @apply uppercase tracking-wide text-white-60 text-xs;
+  }
+}
