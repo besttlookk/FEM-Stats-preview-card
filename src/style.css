@@ -606,6 +606,10 @@ body {
   max-width: 48rem;
 }
 
+.max-w-5xl {
+  max-width: 64rem;
+}
+
 .grow {
   flex-grow: 1;
 }
@@ -757,6 +761,10 @@ body {
 
   .md\:pr-12 {
     padding-right: 3rem;
+  }
+
+  .md\:pr-16 {
+    padding-right: 4rem;
   }
 
   .md\:text-left {
