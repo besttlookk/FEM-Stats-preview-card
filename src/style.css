@@ -759,12 +759,21 @@ body {
     padding-bottom: 2.5rem;
   }
 
+  .md\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
   .md\:pr-12 {
     padding-right: 3rem;
   }
 
   .md\:pr-16 {
     padding-right: 4rem;
+  }
+
+  .md\:pr-28 {
+    padding-right: 7rem;
   }
 
   .md\:text-left {
